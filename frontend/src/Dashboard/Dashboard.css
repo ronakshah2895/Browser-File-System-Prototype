@@ -1,0 +1,15 @@
+.DASHBOARD .add-button {
+  float: right;
+  margin: -4px 0;
+}
+
+.DASHBOARD .edit-icon {
+  cursor: pointer;
+  float: right;
+}
+
+.DASHBOARD .delete-icon {
+  cursor: pointer;
+  float: right;
+  margin-left: 8px;
+}
