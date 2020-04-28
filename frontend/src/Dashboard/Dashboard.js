@@ -16,7 +16,7 @@ function Dashboard() {
   const reducerData = useSelector((state) => state.reducer);
   const dispatch = useDispatch();
   const { docId } = useParams();
-  useEffect(() => dispatch(actions.fetchDocData(docId)), [docId]);
+  useEffect(() => dispatch(actions.fetchDocData(docId)), [docId, dispatch]);
 
   const [editFolderObj, setEditFolderObj] = useState({});
   const [editFileVal, setEditFileVal] = useState('');
